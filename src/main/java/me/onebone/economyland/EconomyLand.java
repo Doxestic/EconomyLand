@@ -67,7 +67,7 @@ import me.onebone.economyapi.EconomyAPI;
 public class EconomyLand extends PluginBase implements Listener{
 	private EconomyAPI api;
 	
-	private Provider provider;
+	public Provider provider;
 	
 	private Map<Player, Position[]> players;
 	private PlayerManager manager;
